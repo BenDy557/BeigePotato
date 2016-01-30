@@ -64,9 +64,11 @@ public class ActionTrigger : MonoBehaviour {
         {
             case actionNames.wakeUp:
                 Debug.Log("WakeUp");
+                Application.LoadLevel("Scene2");
                 break;
             case actionNames.bathroom:
                 Debug.Log("bathroom");
+                Application.LoadLevel("Scene1");
                 break;
             case actionNames.commuteWork:
                 Debug.Log("commute work");
